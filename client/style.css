@@ -51,7 +51,7 @@ body {
   background: #f2f2f20b;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    border: solid #e4e4e458 1px;
+    border: solid #55a2ff96 1px;
     border-radius: 8px;
 }
 
@@ -59,7 +59,7 @@ body {
   background: #f2f2f20b;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    border: solid #e4e4e458 1px;
+    border: solid #52ff7c80 1px;
     border-radius: 8px;
 }
 
@@ -130,7 +130,7 @@ form {
   background: #40414F;background:#f2f2f20b;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    border: solid #26f1877a 1px;
+    border: solid #eceeed52 1px;
     border-radius: 6px;
 
   display: flex;
