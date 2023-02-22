@@ -109,7 +109,8 @@ const handleSubmit = async (e) => {
         const err = await response.text()
 
         messageDiv.innerHTML = "Meu núcleo neural está recebendo inputs de muitos usuários ao mesmo tempo :( Aguarde alguns segundos e tente novamente!')"
-        alert(err)
+        //alert(err)
+        console.log(err) // for debugging
     }
 }
 
