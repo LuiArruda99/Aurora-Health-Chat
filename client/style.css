@@ -128,8 +128,8 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #40414F;background:#f2f2f20b;
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(19px);
+    -webkit-backdrop-filter: blur(19px);
     border: solid #eceeed52 1px;
     border-radius: 6px;
 
@@ -143,8 +143,8 @@ textarea {
   width: 100%;
   width: 1200px;
   height: 193px;
-  color: #957efc;
-  font-size: 24px;
+  color: #a591ff;
+  font-size: 26px;
 background: #00000000;
   padding: 10px;
   
