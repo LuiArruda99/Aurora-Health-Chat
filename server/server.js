@@ -26,7 +26,7 @@ app.post('/', async (req, res) => {
     const prompt = req.body.prompt;
 
     const response = await openai.createCompletion({
-      model: "text-davinci-003",
+      model: "gpt-3.5-turbo",
       prompt: `Her name is Aurora. Pretend you are an oncologist medical AI to answer questions about diseases, especially cancer. Answer in Brazilian Portuguese.${prompt}`,
       temperature: 0, // Higher values means the model will take more risks.
       max_tokens: 500, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
