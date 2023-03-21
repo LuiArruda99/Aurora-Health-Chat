@@ -41,7 +41,7 @@ app.post('/', async (req, res) => {
 
   } catch (error) {
     console.error(error)
-    res.status(500).send(error || 'Meu núcleo neural está recebendo inputs de muitos usuários ao mesmo tempo :( Aguarde alguns segundos e tente novamente!');
+    res.status(500).send(error || 'Meu núcleo neural está recebendo inputs de muitos usuários ao mesmo tempo. Aguarde alguns segundos e tente novamente!');
   }
 })
 
