@@ -23,6 +23,8 @@ body {
   justify-content: space-between;
 }
 
+
+
 #chat_container {
   flex: 1;
   width: 100%;
