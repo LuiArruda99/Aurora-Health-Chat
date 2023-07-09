@@ -26,13 +26,9 @@ app.post('/', async (req, res) => {
     const prompt = req.body.prompt;
 
     const response = await openai.createCompletion({
-<<<<<<< Updated upstream
-      model: "text-davinci-003",
-      prompt: `Your name is Aurora. Pretend you are an oncologist medical AI Assistant to answer questions about diseases, especially cancer. Be nice and friendly. Answer in Brazilian Portuguese.${prompt}`,
-=======
+
       model: "gpt-3.5-turbo-16k",
       prompt: `Her name is Aurora. Pretend you are an oncologist medical AI Assistant to answer questions about diseases, especially cancer. Answer in Brazilian Portuguese.${prompt}`,
->>>>>>> Stashed changes
       temperature: 0.95, // Higher values means the model will take more risks.
       max_tokens: 500, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
       top_p: 1, // alternative to sampling with temperature, called nucleus sampling
